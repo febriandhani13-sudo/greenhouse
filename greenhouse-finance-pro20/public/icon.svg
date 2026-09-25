@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="melon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  
+  <!-- Greenhouse frame roof line -->
+  <path d="M96 240 L256 128 L416 240" fill="none" stroke="#10b981" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M140 210 L140 370 L372 370 L372 210" fill="none" stroke="#10b981" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+  <line x1="256" y1="128" x2="256" y2="370" stroke="#047857" stroke-width="12" stroke-dasharray="16 12" />
+
+  <!-- Stylized Melon Globe -->
+  <circle cx="256" cy="285" r="95" fill="url(#melon)" />
+  
+  <!-- Melon Netting Pattern Lines -->
+  <ellipse cx="256" cy="285" rx="55" ry="95" fill="none" stroke="#fef3c7" stroke-width="6" opacity="0.75" />
+  <ellipse cx="256" cy="285" rx="95" ry="50" fill="none" stroke="#fef3c7" stroke-width="6" opacity="0.65" />
+  <line x1="161" y1="285" x2="351" y2="285" stroke="#fef3c7" stroke-width="6" opacity="0.75" />
+  <line x1="256" y1="190" x2="256" y2="380" stroke="#fef3c7" stroke-width="7" opacity="0.85" />
+
+  <!-- Sprout Top -->
+  <path d="M256 190 C256 150, 290 140, 310 145 C305 175, 280 185, 256 190 Z" fill="url(#leaf)" />
+  <path d="M256 190 C250 160, 220 155, 205 165 C215 185, 240 190, 256 190 Z" fill="#6ee7b7" />
+  
+  <!-- Finance Dollar / Growth badge -->
+  <circle cx="360" cy="360" r="48" fill="#10b981" stroke="#064e3b" stroke-width="8" />
+  <text x="360" y="378" font-family="-apple-system, sans-serif" font-weight="900" font-size="52" fill="#ffffff" text-anchor="middle">Rp</text>
+</svg>
