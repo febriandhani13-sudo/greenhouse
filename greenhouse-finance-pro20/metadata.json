@@ -1,6 +1,0 @@
-{
-  "name": "GREENHOUSE FINANCE PRO",
-  "description": "Sistem Manajemen Keuangan & Produksi Greenhouse Melon Terintegrasi (DFT Tunnel 1 & 2)",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
